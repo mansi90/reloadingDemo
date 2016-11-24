@@ -126,3 +126,13 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+---
+grails:
+    reload:
+        enabled: true
+enable:
+    jndi: true
+disable:
+    auto:
+        recompile: false
+    
